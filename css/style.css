@@ -96,18 +96,44 @@
     display: flex;
 }
 
-.col{
-    
-}
-
 .wave{
     background-image: url(../img/Wave.svg);
     height: 150px;
     width: auto;
 }
 
+/* Green box */
+.cont-box-gr{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
+.row-box-gr{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
 
+.box-text{
+    max-width: 1050px;
+    text-align: center;
+}
+
+.cont-button{
+    max-width: 1200px;
+    padding: 70px;
+}
+.row-cont-button{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 
 
