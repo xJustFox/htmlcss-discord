@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Tilt+Neon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon', sans-serif;
+}
+/* [Header]Nav bar */
+
+.cont-header{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row-header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar{
+    padding: 10px;
+}
+
+.cont-header div:first-child{
+    flex-grow: 1;
+}
+
+.cont-header div:nth-child(2){
+    flex-grow: 5;
+    text-align: center;
+}
+
+.row-header div:last-child{
+    flex-grow: 1;
+    text-align: right;
+}
+
+.bg-aqua{
+    background-color: rgb(88,101,242);
+}
+
+/* Items NavBar */
+
+.nav-bar a{
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.nav-bar span{
+    background-color: white;
+    border-radius: 30px;
+    padding: 8px 15px;
+    font-weight: 600;
+}
