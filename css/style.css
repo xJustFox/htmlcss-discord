@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Tilt+Neon&display=swap');
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* [Header]Nav bar */
 
 .cont-header{
     max-width: 1200px;
+    min-width: 800px;
     margin: 0 auto;
 }
 
@@ -25,11 +24,11 @@
     padding: 10px;
 }
 
-.cont-header div:first-child{
+.row-header div:first-child{
     flex-grow: 1;
 }
 
-.cont-header div:nth-child(2){
+.row-header div:nth-child(2){
     flex-grow: 5;
     text-align: center;
 }
@@ -39,15 +38,14 @@
     text-align: right;
 }
 
-.bg-aqua{
-    background-color: rgb(88,101,242);
+.bg-nav-bar{
+    background-color: rgb(37,94,233);
 }
 
 /* Items NavBar */
 
 .nav-bar a{
     margin: 0 15px;
-    color: white;
     text-decoration: none;
     font-weight: 900;
 }
@@ -58,3 +56,106 @@
     padding: 8px 15px;
     font-weight: 600;
 }
+
+/* [Main] Cont Background */
+
+.cont-bg{
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+.row-bg{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-box{
+    max-width: 1000px;
+    text-align: center;
+}
+
+.bg-jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+/* Cont box-1 */
+
+.cont-box{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.row-box{
+    max-width: 1200px;
+    display: flex;
+}
+
+.col{
+    
+}
+
+.wave{
+    background-image: url(../img/Wave.svg);
+    height: 150px;
+    width: auto;
+}
+
+
+
+
+
+
+/* Reusable classes */
+.text-white{
+    color: white;
+}
+.text-title{
+    font-size: 50px;
+}
+
+.text-content{
+    line-height: 35px;
+    font-size: 24px;
+}
+
+.margin-bot20{
+    margin-bottom: 20px;
+}
+
+.left-top-padding{
+    padding-left: 130px;
+    padding-top: 30px;
+}
+
+.padding-bot40{
+    padding-bottom: 40px;
+}
+
+.button{
+    padding: 10px 30px;
+    font-size: 27px;
+    border: 0;
+    border-radius: 30px;
+    margin: 35px 20px;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+/* Background Color */
+.bg-black{
+    background-color: rgb(35,39,42);
+}
+
+.bg-grey{
+    background-color: rgb(207,207,209);
+}
+
+
