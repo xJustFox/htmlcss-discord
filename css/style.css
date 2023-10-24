@@ -212,6 +212,15 @@ li{
     font-size: 20px;
 }
 
+.social-box svg{
+    height: 40px;
+    margin: 30px 10px;
+}
+
+.social-box path{
+    fill: whitesmoke;
+}
+
 /* Items end footer */
 
 .footer-button input{
