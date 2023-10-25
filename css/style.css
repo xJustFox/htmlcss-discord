@@ -213,13 +213,16 @@ li{
     font-size: 20px;
 }
 
-.social-box svg{
-    height: 40px;
-    margin: 30px 10px;
+#italy-text i{
+    vertical-align: middle;
 }
 
-.social-box path{
-    fill: whitesmoke;
+.social-box{
+    margin-top: 20px;
+}
+
+.social-box i{
+    padding: 0 5px;
 }
 
 /* Items end footer */
